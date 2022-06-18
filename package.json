@@ -1,0 +1,15 @@
+{
+  "name": "its_time_to_func",
+  "version": "1.0.0",
+  "description": "Bem vindo ao projeto It's Time To Func!!! Espero que aprenda, aperfeiçoe e se divirta bastante desenvolvendo este projeto! :D",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
