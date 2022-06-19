@@ -12,6 +12,17 @@ function studentStats(grade) {
   return 'Nota inválida';
 }
 
+// Desafio 2 - Escreva uma função que calcula as 4 operações fundamentais.
+function calculator(sign, n1, n2) {
+  if (sign === '+') return n1 + n2;
+  if (sign === '-') return n1 - n2;
+  if (sign === '*') return n1 * n2;
+  if (sign === '/') return n1 / n2;
+
+  return 'Sinal inválido.'
+}
+
 module.exports = {
   studentStats,
+  calculator,
 }
