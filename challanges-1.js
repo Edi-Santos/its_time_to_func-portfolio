@@ -41,6 +41,13 @@ function conversionTempMeasur(degrees, currentMeasure, conversion) {
     return calcToFahrenheit;
   }
 
+  if (currToLowerCase === 'kelvin' && converToLowerCase === 'fahrenheit') {
+    const kelvinToCelsius = degrees - 273;
+    const calcToFahrenheit = ((9 * kelvinToCelsius) + (5 * 32)) / 5;
+    
+    return calcToFahrenheit;
+  }
+
   if (currToLowerCase === 'fahrenheit' && converToLowerCase === 'celsius') {
     const calcToCelsius = (5 * (degrees - 32)) / 9;
 
