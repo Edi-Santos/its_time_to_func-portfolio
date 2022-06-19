@@ -22,7 +22,36 @@ function calculator(sign, n1, n2) {
   return 'Sinal inválido.'
 }
 
+// Desafio 3 - Escreva uma função que faça a conversão de medidas de temperatura: Celsius, Kelvin e Fahrenheit
+function conversionTempMeasur(degrees, currentMeasure, conversion) {
+  const currToLowerCase = currentMeasure.toLowerCase();
+  const converToLowerCase = conversion.toLowerCase();
+  
+  if (currToLowerCase === 'celsius' && converToLowerCase === 'kelvin') {
+    return degrees + 273;
+  }
+
+  if (currToLowerCase === 'kelvin' && converToLowerCase === 'celsius') {
+    return degrees - 273;
+  }
+
+  if (currToLowerCase === 'celsius' && converToLowerCase === 'fahrenheit') {
+    const calcToFahrenheit = ((9 * degrees) + (5 * 32)) / 5;
+
+    return calcToFahrenheit;
+  }
+
+  if (currToLowerCase === 'fahrenheit' && converToLowerCase === 'celsius') {
+    const calcToCelsius = (5 * (degrees - 32)) / 9;
+
+    return calcToCelsius;
+  }
+
+  return 'Dados incorrentos.'
+}
+
 module.exports = {
   studentStats,
   calculator,
+  conversionTempMeasur,
 }
