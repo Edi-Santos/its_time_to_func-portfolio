@@ -23,3 +23,26 @@ function howMuchWords(sentence) {
 
   return charQuantity;
 }
+
+// Desafio 6 - Escreva uma função que diga a letra mais repetida numa frase
+function letterMoreUsed(sentence) {
+  let letter = "";
+  let counter = 0;
+  let acc = 0;
+
+  const toLowerCase = sentence.toLowerCase();
+
+  for (let index1 = 0; index1 < toLowerCase.length; index1 += 1) {
+    for (let index2 = 0; index2 < toLowerCase.length; index2 += 1) {
+      if (toLowerCase[index1] === toLowerCase[index2] && toLowerCase[index1] !== " ") counter += 1;
+
+      if (counter > acc) {
+        letter = sentence[index1];
+        acc = counter;
+      }
+    }
+    counter = 0;
+  }
+
+  return letter;
+}
