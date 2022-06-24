@@ -11,4 +11,15 @@ function counter() {
   return acc;
 }
 
-console.log(counter());
+// Desafio 5 - Escreva uma função que conte a quantidade de letras existentes na frase (não conte com os espaços)
+function howMuchWords(sentence) {
+  let charQuantity = 0
+
+  for (let index = 0; index < sentence.length; index += 1) {
+    if (sentence[index] !== " ") {
+      charQuantity += 1;
+    }
+  }
+
+  return charQuantity;
+}
