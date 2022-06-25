@@ -62,3 +62,10 @@ function biggestElement(arr) {
 
   return biggest;
 }
+
+module.exports = {
+  counter,
+  howMuchWords,
+  letterMoreUsed,
+  biggestElement,
+}
