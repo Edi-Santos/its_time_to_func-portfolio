@@ -19,7 +19,7 @@ function calculator(sign, n1, n2) {
   if (sign === '*') return n1 * n2;
   if (sign === '/') return n1 / n2;
 
-  return 'Sinal inválido.'
+  return 'Sinal inválido.';
 }
 
 // Desafio 3 - Escreva uma função que faça a conversão de medidas de temperatura: Celsius, Kelvin e Fahrenheit
@@ -54,7 +54,7 @@ function conversionTempMeasur(degrees, currentMeasure, conversion) {
     return calcToCelsius;
   }
 
-  return 'Dados incorrentos.'
+  return 'Dados incorrentos.';
 }
 
 module.exports = {
