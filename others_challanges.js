@@ -22,3 +22,14 @@ function asteriskSquare(n) {
     asterisk = "";
   }
 }
+
+// Desafio 10 - Escreva uma função que imprima um triângulo de "*" começando com 1 asterísco
+//e terminando com n asteríscos
+function asteriskTriangle(n) {
+  let asterisk = "";
+
+  for (let i = 0; i < n; i += 1) {
+    asterisk += "*";
+    console.log(asterisk);
+  }
+}
