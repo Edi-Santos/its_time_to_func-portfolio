@@ -16,4 +16,21 @@ describe('Testando arquivo challanges-1.js', () => {
     assert.deepStrictEqual(teste2, expected2);
     assert.deepStrictEqual(teste3, expected3);
   });
+
+  it('função calculator()', () => {
+    const teste1 = challanges.calculator('+', 5, 3);
+    const teste2 = challanges.calculator('-', 5, 3);
+    const teste3 = challanges.calculator('*', 5, 3);
+    const teste4 = challanges.calculator('/', 5, 2);
+
+    const expected1 = 8;
+    const expected2 = 2;
+    const expected3 = 15;
+    const expected4 = 2.5;
+
+    assert.deepStrictEqual(teste1, expected1);
+    assert.deepStrictEqual(teste2, expected2);
+    assert.deepStrictEqual(teste3, expected3);
+    assert.deepStrictEqual(teste4, expected4);
+  });
 });
