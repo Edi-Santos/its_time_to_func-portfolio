@@ -33,3 +33,23 @@ function asteriskTriangle(n) {
     console.log(asterisk);
   }
 }
+
+// Desafio 11 - Escreva uma função que imprima um triângulo de "*" começando com n asteríscos e
+// terminando com 1 asterísco
+function inverseAsteriskTriangle(n) {
+  let arrayNum = [];
+  let asterisk = "";
+
+  for (let i = 1; i <= n; i += 1) {
+    arrayNum.push(i);
+  }
+
+  for (let i = 0; i < arrayNum.length; i = 0) {
+    for (let ii = arrayNum.length; ii > 0; ii -= 1) {
+      asterisk += "*";
+    }
+    console.log(asterisk);
+    arrayNum.pop();
+    asterisk = "";
+  }
+}
