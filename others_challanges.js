@@ -68,3 +68,11 @@ function isPalindrome(sentence) {
 
   return false;
 }
+
+module.exports = {
+  alternativeCalculator,
+  asteriskSquare,
+  asteriskTriangle,
+  inverseAsteriskTriangle,
+  isPalindrome,
+};
