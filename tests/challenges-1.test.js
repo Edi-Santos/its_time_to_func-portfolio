@@ -26,16 +26,19 @@ describe('Testando arquivo challanges-1.js', () => {
     const test2 = challanges.calculator('-', 5, 3);
     const test3 = challanges.calculator('*', 5, 3);
     const test4 = challanges.calculator('/', 5, 2);
+    const test5 = challanges.calculator('$', 5, 3);
 
     const expected1 = 8;
     const expected2 = 2;
     const expected3 = 15;
     const expected4 = 2.5;
+    const expected5 = 'Sinal inválido.';
 
     assert.deepStrictEqual(test1, expected1);
     assert.deepStrictEqual(test2, expected2);
     assert.deepStrictEqual(test3, expected3);
     assert.deepStrictEqual(test4, expected4);
+    assert.deepStrictEqual(test5, expected5);
   });
 
   it('função conversionTempMeasur()', () => {
