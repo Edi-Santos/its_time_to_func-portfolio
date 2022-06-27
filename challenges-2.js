@@ -46,7 +46,9 @@ function letterMoreUsed(sentence) {
     counter = 0;
   }
 
-  return letter;
+  const result = `A letra mais usada foi "${letter}"`;
+
+  return result;
 }
 
 
