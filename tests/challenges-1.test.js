@@ -12,7 +12,7 @@ describe('Testando arquivo challanges-1.js', () => {
     const expected1 = 'Aluno em recuperação';
     const expected2 = 'Aluno reprovado.';
     const expected3 = 'Aluno aprovado';
-    const expected4 = 'Nota inválida'
+    const expected4 = 'Nota inválida.'
 
     assert.deepStrictEqual(test1, expected1);
     assert.deepStrictEqual(test2, expected2);
