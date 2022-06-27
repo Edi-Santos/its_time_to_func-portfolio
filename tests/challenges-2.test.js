@@ -9,4 +9,18 @@ describe('Testando arquivo challenges-2.js', () => {
 
     assert.deepStrictEqual(test, expected);
   });
+
+  it('função howMuchWords()', () => {
+    const test1 = challanges.howMuchWords('Meu pastel é mais barato');
+    const test2 = challanges.howMuchWords('É melhor morrer do que perder a vida');
+    const test3 = challanges.howMuchWords('Cê filma e fala. Cê é o bixão memo, hein');
+
+    const expected1 = `A frase tem 20 letras.`;
+    const expected2 = `A frase tem 29 letras.`;
+    const expected3 = `A frase tem 31 letras.`;
+
+    assert.deepStrictEqual(test1, expected1);
+    assert.deepStrictEqual(test2, expected2);
+    assert.deepStrictEqual(test3, expected3);
+  });
 });
