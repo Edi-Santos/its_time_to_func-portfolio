@@ -1,5 +1,5 @@
 const assert = require('assert');
-const challanges = require('../challanges-1');
+const challanges = require('../challenges-1');
 
 describe('Testando arquivo challanges-1.js', () => {
   it('função studentStats()', () => {
