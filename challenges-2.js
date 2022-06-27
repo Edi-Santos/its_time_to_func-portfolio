@@ -51,7 +51,6 @@ function letterMoreUsed(sentence) {
   return result;
 }
 
-
 // Desafio 7 - Escreva uma função que receba uma array de strings e retorne o maior elemente deste array
 function biggestElement(arr) {
   let biggest = "";
