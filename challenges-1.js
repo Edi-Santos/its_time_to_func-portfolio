@@ -5,12 +5,15 @@
 // Reprovado: 0 a 4,9; Recuperação: 5 a 7; Aprovado: 7,1 a 10.
 
 function studentStats(grade) {
+  if (grade < 0) return 'Nota inválida';
   if (grade >= 0 && grade < 5) return 'Aluno reprovado.';
   if (grade <= 7) return 'Aluno em recuperação';
   if (grade >= 7.1 && grade <= 10) return 'Aluno aprovado';
 
   return 'Nota inválida';
 }
+
+console.log(studentStats(-1));
 
 // Desafio 2 - Escreva uma função que calcula as 4 operações fundamentais.
 function calculator(sign, n1, n2) {
