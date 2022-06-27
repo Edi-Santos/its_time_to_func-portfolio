@@ -23,4 +23,18 @@ describe('Testando arquivo challenges-2.js', () => {
     assert.deepStrictEqual(test2, expected2);
     assert.deepStrictEqual(test3, expected3);
   });
+
+  it('função letterMoreUsed()', () => {
+    const test1 = challanges.letterMoreUsed('Meu pastel é mais barato');
+    const test2 = challanges.letterMoreUsed('É melhor morrer do que perder a vida');
+    const test3 = challanges.letterMoreUsed('Cê filma e fala. Cê é o bixão memo, hein');
+
+    const expected1 = `A letra mais usada foi "a"`;
+    const expected2 = `A letra mais usada foi "r"`;
+    const expected3 = `A letra mais usada foi "i"`;
+
+    assert.deepStrictEqual(test1, expected1);
+    assert.deepStrictEqual(test2, expected2);
+    assert.deepStrictEqual(test3, expected3);
+  });
 });
