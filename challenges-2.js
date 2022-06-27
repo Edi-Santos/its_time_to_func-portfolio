@@ -21,7 +21,9 @@ function howMuchWords(sentence) {
     }
   }
 
-  return charQuantity;
+  const result = `A frase tem ${charQuantity} letras.`;
+
+  return result;
 }
 
 // Desafio 6 - Escreva uma função que diga a letra mais repetida numa frase
@@ -52,7 +54,7 @@ function letterMoreUsed(sentence) {
 function biggestElement(arr) {
   let biggest = "";
   let lengthElement = 0;
-
+ 
   for (let index = 0; index < arr.length; index += 1) {
     if (arr[index].length > lengthElement) {
       lengthElement = arr[index].length;
