@@ -37,4 +37,22 @@ describe('Testando arquivo challenges-2.js', () => {
     assert.deepStrictEqual(test2, expected2);
     assert.deepStrictEqual(test3, expected3);
   });
+
+  it('função biggestElement()', () => {
+    const array1 = ['Mortal Kombat 9', 'Assassin\'s Creed', 'God Of War'];
+    const array2 = ['Batata', 'Tomate', 'Espinafre'];
+    const array3 = ['Macarrão', 'Lasanha', 'Strogonoff'];
+
+    const test1 = challanges.biggestElement(array1);
+    const test2 = challanges.biggestElement(array2);
+    const test3 = challanges.biggestElement(array3);
+
+    const expected1 = 'O maior elemento é "Assassin\'s Creed"';
+    const expected2 = 'O maior elemento é "Espinafre"';
+    const expected3 = 'O maior elemento é "Strogonoff"';
+
+    assert.deepStrictEqual(test1, expected1);
+    assert.deepStrictEqual(test2, expected2);
+    assert.deepStrictEqual(test3, expected3);
+  });
 });
