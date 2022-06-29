@@ -7,7 +7,9 @@ function alternativeCalculator(sign, n1, n2) {
     '/': n1 / n2,
   };
 
-  return operations[sign];
+  const operation = operations[sign];
+
+  return operation ? operation : 'Sinal inválido.';
 }
 
 // Desafio 9 - Escraba uma função que imprima um quadrado de "*"
