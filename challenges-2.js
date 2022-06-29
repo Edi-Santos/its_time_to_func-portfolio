@@ -63,7 +63,9 @@ function biggestElement(arr) {
     }
   }
 
-  return biggest;
+  const result = `O maior elemento é "${biggest}"`;
+
+  return result;
 }
 
 module.exports = {
