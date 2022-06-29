@@ -2,7 +2,7 @@ const assert = require('assert');
 const challanges = require('../challenges-2');
 
 describe('Testando arquivo challenges-2.js', () => {
-  it('função counter()', () => {
+  it('Desafio 4 - função counter()', () => {
     const test = challanges.counter();
 
     const expected = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -10,7 +10,7 @@ describe('Testando arquivo challenges-2.js', () => {
     assert.deepStrictEqual(test, expected);
   });
 
-  it('função howMuchWords()', () => {
+  it('Desafio 5 - função howMuchWords()', () => {
     const test1 = challanges.howMuchWords('Meu pastel é mais barato');
     const test2 = challanges.howMuchWords('É melhor morrer do que perder a vida');
     const test3 = challanges.howMuchWords('Cê filma e fala. Cê é o bixão memo, hein');
@@ -24,7 +24,7 @@ describe('Testando arquivo challenges-2.js', () => {
     assert.deepStrictEqual(test3, expected3);
   });
 
-  it('função letterMoreUsed()', () => {
+  it('Desafio 6 - função letterMoreUsed()', () => {
     const test1 = challanges.letterMoreUsed('Meu pastel é mais barato');
     const test2 = challanges.letterMoreUsed('É melhor morrer do que perder a vida');
     const test3 = challanges.letterMoreUsed('Cê filma e fala. Cê é o bixão memo, hein');
@@ -38,7 +38,7 @@ describe('Testando arquivo challenges-2.js', () => {
     assert.deepStrictEqual(test3, expected3);
   });
 
-  it('função biggestElement()', () => {
+  it('Desafio 7 - função biggestElement()', () => {
     const array1 = ['Mortal Kombat 9', 'Assassin\'s Creed', 'God Of War'];
     const array2 = ['Batata', 'Tomate', 'Espinafre'];
     const array3 = ['Macarrão', 'Lasanha', 'Strogonoff'];

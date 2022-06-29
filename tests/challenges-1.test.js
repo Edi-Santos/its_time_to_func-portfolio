@@ -2,7 +2,7 @@ const assert = require('assert');
 const challanges = require('../challenges-1');
 
 describe('Testando arquivo challanges-1.js', () => {
-  it('função studentStats()', () => {
+  it('Desafio 1 - função studentStats()', () => {
     const test1 = challanges.studentStats(7);
     const test2 = challanges.studentStats(0);
     const test3 = challanges.studentStats(10);
@@ -21,7 +21,7 @@ describe('Testando arquivo challanges-1.js', () => {
     assert.deepStrictEqual(test5, expected4);
   });
 
-  it('função calculator()', () => {
+  it('Desafio 2 - função calculator()', () => {
     const test1 = challanges.calculator('+', 5, 3);
     const test2 = challanges.calculator('-', 5, 3);
     const test3 = challanges.calculator('*', 5, 3);
@@ -41,7 +41,7 @@ describe('Testando arquivo challanges-1.js', () => {
     assert.deepStrictEqual(test5, expected5);
   });
 
-  it('função conversionTempMeasur()', () => {
+  it('Desafio 3 - função conversionTempMeasur()', () => {
     const test1 = challanges.conversionTempMeasur(30, 'celsius', 'kelvin');
     const test2 = challanges.conversionTempMeasur(30, 'celsius', 'fahrenheit');
     const test3 = challanges.conversionTempMeasur(292, 'kelvin', 'celsius');
