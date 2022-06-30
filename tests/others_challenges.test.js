@@ -21,4 +21,24 @@ describe('Testando arquivo challenges-2.js', () => {
     assert.deepStrictEqual(test4, expected4);
     assert.deepStrictEqual(test5, expected5);
   });
+
+  it('Desafio 12 - função isPalindrome()', () => {
+    const test1 = challenges.isPalindrome('ovo');
+    const test2 = challenges.isPalindrome('pastel');
+    const test3 = challenges.isPalindrome('reviver');
+    const test4 = challenges.isPalindrome('blink du');
+    const test5 = challenges.isPalindrome('subinoonibus');
+
+    const expected1 = true;
+    const expected2 = false;
+    const expected3 = true;
+    const expected4 = false;
+    const expected5 = true;
+
+    assert.deepStrictEqual(test1, expected1);
+    assert.deepStrictEqual(test2, expected2);
+    assert.deepStrictEqual(test3, expected3);
+    assert.deepStrictEqual(test4, expected4);
+    assert.deepStrictEqual(test5, expected5);
+  });
 });
