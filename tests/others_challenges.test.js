@@ -1,7 +1,7 @@
 const assert = require('assert');
 const challenges = require('../others_challenges');
 
-describe('Testando arquivo challenges-2.js', () => {
+describe('Testando arquivo others_challenges.js', () => {
   it('Desafio 8 - função alternativeCalculator()', () => {
     const test1 = challenges.alternativeCalculator('+', 5, 3);
     const test2 = challenges.alternativeCalculator('-', 5, 3);
