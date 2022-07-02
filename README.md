@@ -1,4 +1,4 @@
-# Bem Vindo ao Projeto My Google!!!
+# Bem Vindo ao Projeto It's Time To Func!!!
 
 Este é o segundo projeto *__PorConta__* com o propósito de ajudar aos iniciantes na programação a começarem a desenvolver um *__Portfólio__*. Também ajudará aos que
 desejam pegar novos projetos para praticar e se aperfeiçoarem, estendendo, consequentenmente, ainda mais o Portfólio. </br>
