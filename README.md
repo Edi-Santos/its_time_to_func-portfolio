@@ -25,6 +25,7 @@ Fique a vontade para pegar os projetos e desenvolver à sua maneira, publicar no
         - [3 - Implemente a Função conversionTempMeasur()](#3---implemente-a-função-conversiontempmeasur)
         - [4 - Implemente a Função counter()](#4---implemente-a-função-counter)
         - [5 - Implemente a Função howMuchWords()](#5---implemente-a-função-howmuchwords)
+        - [6 - Implemente a Função letterMoreUsed()](#6---implemente-a-função-lettermoreused)
    - [Considerações Finais](#considerações-finais)
 ---
 
