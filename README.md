@@ -28,6 +28,7 @@ Fique a vontade para pegar os projetos e desenvolver à sua maneira, publicar no
         - [6 - Implemente a Função letterMoreUsed()](#6---implemente-a-função-lettermoreused)
         - [7 - Implemente a Função biggestElement()](#7---implemente-a-função-biggestelement)
         - [8 - Implemente a Função alternativeCalculator()](#8---implemente-a-função-alternativecalculator)
+        - [9 - Implemente a Função asteriskSquare()](#9---implemente-a-função-asterisksquare)
    - [Considerações Finais](#considerações-finais)
 ---
 
@@ -243,6 +244,15 @@ Esta função tem a mesma finalidade que a função do requisito 2, porém, dest
 #### O que será validado
 - Será validado que o cálculo de cada operação é feito com sucesso;
 - Será validado que a função retorna o texto `Sinal inválido.` caso seja passado algum caractere não esperado pela função.
+
+
+### 9 - Implemente a Função *__asteriskSquare()__*
+Esta função tem a finalidade de imprimir, com o `console.log()`, um quadrado de asteríscos.
+
+#### Detalhes da função
+- Esta função recebe um número como parâmetro. Baseado neste número, será impresso a quantidade de linhas e asterísticos formando um quadrado.
+
+>*__Obs.__*: *__PARA ESTA FUNÇÃO NÃO HÁ TESTES.__*
 
 
 ---
