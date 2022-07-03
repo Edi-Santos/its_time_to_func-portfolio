@@ -26,6 +26,7 @@ Fique a vontade para pegar os projetos e desenvolver à sua maneira, publicar no
         - [4 - Implemente a Função counter()](#4---implemente-a-função-counter)
         - [5 - Implemente a Função howMuchWords()](#5---implemente-a-função-howmuchwords)
         - [6 - Implemente a Função letterMoreUsed()](#6---implemente-a-função-lettermoreused)
+        - [7 - Implemente a Função biggestElement()](#7---implemente-a-função-biggestelement)
    - [Considerações Finais](#considerações-finais)
 ---
 
@@ -220,6 +221,16 @@ Esta função tem a finalidade de encontrar a letra mais usada numa frase.
 
 #### O que sera validado
 - Será validado que a função retorna o texto: `A letra mais usada foi "..."`. Os 3 pontos precisam ser substituído pela letra que mais aparece na frase recebida por parâmetro.
+
+
+### 7 - Implemente a Função *__biggestElement()__*
+Esta função tem a finalidade de encontrar, dentro de um _array_, o maior elemento presente (_.lenght()_).
+
+#### Detalhes da função
+- Esta função recebe um parâmetro sendo um _array_ de _STRINGs_.
+
+#### O que será validado
+- Será validado que a função retorna o maior elemento de um _array_ de _STRINGs_ com o texto: `O maior elemento é "..."`. Os 3 pontos devem ser substituídos pelo maior elemento do array encontrado pela função.
 
 
 ---
