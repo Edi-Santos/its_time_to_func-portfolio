@@ -24,6 +24,7 @@ Fique a vontade para pegar os projetos e desenvolver à sua maneira, publicar no
         - [2 - Implemente a Função calculator()](#2---implemente-a-função-calculator)
         - [3 - Implemente a Função conversionTempMeasur()](#3---implemente-a-função-conversiontempmeasur)
         - [4 - Implemente a Função counter()](#4---implemente-a-função-counter)
+        - [5 - Implemente a Função howMuchWords()](#5---implemente-a-função-howmuchwords)
    - [Considerações Finais](#considerações-finais)
 ---
 
