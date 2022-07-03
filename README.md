@@ -232,6 +232,17 @@ Esta função tem a finalidade de encontrar, dentro de um _array_, o maior eleme
 #### O que será validado
 - Será validado que a função retorna o maior elemento de um _array_ de _STRINGs_ com o texto: `O maior elemento é "..."`. Os 3 pontos devem ser substituídos pelo maior elemento do array encontrado pela função.
 
+### 8 - Implemente a Função alternativeCalculator()
+Esta função tem a mesma finalidade que a função do requisito 2, porém, desta vez, você precisará desenvolver de uma forma diferente, sem usar _if/else_ ou _switch/case_.
+
+#### Detalhes da função
+- Esta função recebe 3 parâmetros sendo o primeiro uma _String_ com o sinal da operação e os dois seguintes os números a serem operados;
+- Caso o primeiro parâmetro (a _String_) receba um caractere não esperado pela função, a função deve retornar o texto: `Sinal inválido.`.
+
+#### O que será validado
+- Será validado que o cálculo de cada operação é feito com sucesso;
+- Será validado que a função retorna o texto `Sinal inválido.` caso seja passado algum caractere não esperado pela função.
+
 
 ---
 ---
