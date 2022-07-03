@@ -211,6 +211,16 @@ Esta função tem a finalidade de contar a quantidade de letras que existem numa
 - Será validado que a função retorna o texto: `A frase tem ... letras.`. Os 3 pontos precisam ser substituído por números dinâmicos contento a quantidade de letras presentes na frase.
 
 
+### 6 - Implemente a Função *__letterMoreUsed()__*
+Esta função tem a finalidade de encontrar a letra mais usada numa frase.
+
+#### Detalhes da função
+- Esta função recebe um parâmetro que é uma frase completa (uma _STRING_).
+
+#### O que sera validado
+- Será validado que a função retorna o texto: `A letra mais usada foi "..."`. Os 3 pontos precisam ser substituído pela letra que mais aparece na frase recebida por parâmetro.
+
+
 ---
 ---
 ---
