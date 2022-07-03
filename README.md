@@ -27,6 +27,7 @@ Fique a vontade para pegar os projetos e desenvolver à sua maneira, publicar no
         - [5 - Implemente a Função howMuchWords()](#5---implemente-a-função-howmuchwords)
         - [6 - Implemente a Função letterMoreUsed()](#6---implemente-a-função-lettermoreused)
         - [7 - Implemente a Função biggestElement()](#7---implemente-a-função-biggestelement)
+        - [8 - Implemente a Função alternativeCalculator()](#8---implemente-a-função-alternativecalculator)
    - [Considerações Finais](#considerações-finais)
 ---
 
