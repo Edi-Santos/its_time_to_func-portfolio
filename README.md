@@ -221,7 +221,7 @@ Esta função tem a finalidade de encontrar a letra mais usada numa frase.
 #### Detalhes da função
 - Esta função recebe um parâmetro que é uma frase completa (uma _STRING_).
 
-#### O que sera validado
+#### O que será validado
 - Será validado que a função retorna o texto: `A letra mais usada foi "..."`. Os 3 pontos precisam ser substituído pela letra que mais aparece na frase recebida por parâmetro.
 
 
