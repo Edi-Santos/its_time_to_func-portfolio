@@ -232,7 +232,7 @@ Esta função tem a finalidade de encontrar, dentro de um _array_, o maior eleme
 #### O que será validado
 - Será validado que a função retorna o maior elemento de um _array_ de _STRINGs_ com o texto: `O maior elemento é "..."`. Os 3 pontos devem ser substituídos pelo maior elemento do array encontrado pela função.
 
-### 8 - Implemente a Função alternativeCalculator()
+### 8 - Implemente a Função *__alternativeCalculator()__*
 Esta função tem a mesma finalidade que a função do requisito 2, porém, desta vez, você precisará desenvolver de uma forma diferente, sem usar _if/else_ ou _switch/case_.
 
 #### Detalhes da função
