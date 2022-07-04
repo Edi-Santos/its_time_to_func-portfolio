@@ -29,6 +29,7 @@ Fique a vontade para pegar os projetos e desenvolver à sua maneira, publicar no
         - [7 - Implemente a Função biggestElement()](#7---implemente-a-função-biggestelement)
         - [8 - Implemente a Função alternativeCalculator()](#8---implemente-a-função-alternativecalculator)
         - [9 - Implemente a Função asteriskSquare()](#9---implemente-a-função-asterisksquare)
+        - [10 - Implemente a Função asteriskTriangle()](#10---implemente-a-função-asterisktriangle)
    - [Considerações Finais](#considerações-finais)
 ---
 
@@ -257,6 +258,19 @@ Esta função tem a finalidade de imprimir, com o `console.log()`, um quadrado d
 Retorno que a função deve ter ao passar o número 5 como parâmetro:
 
 ><img src='./img_readme/desafio-9.png'>
+
+
+### 10 - Implemente a Função *__asteriskTriangle()__*
+Esta função tem a finalidade de imprimir, com o `console.log()`, um triângulo de asteríscos.
+
+#### Detalhes da função
+- Esta função recebe um número como parâmetro. Baseado neste número, será impresso uma sequência de asteríscos e linhas. A primeira linha deve conter 1 asterísco e a última deve conter a quantidade de asteríscos correspondente ao parâmetro passado.
+
+>*__Obs.__*: *__PARA ESTA FUNÇÃO NÃO HÁ TESTES.__*
+
+Retorno que a função deve ter ao passar o número 5 como parâmetro:
+
+><img src='./img_readme/desafio-10.png'>
 
 
 ---
