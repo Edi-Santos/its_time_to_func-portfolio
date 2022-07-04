@@ -58,13 +58,13 @@ function inverseAsteriskTriangle(n) {
 
 // Desafio 12 - Escreva um função que diga se o parâmetro recebido é um palíndromo
 function isPalindrome(sentence) {
-  let sentenceLeftToRight = "";
+  let sentenceRightToLeft = "";
 
   for (let i = (sentence.length - 1); i >= 0; i -= 1) {
-    sentenceLeftToRight += sentence[i];
+    sentenceRightToLeft += sentence[i];
   }
 
-  if (sentence === sentenceLeftToRight) {
+  if (sentence === sentenceRightToLeft) {
     return true;
   }
 
