@@ -287,6 +287,16 @@ Retorno que a função deve ter ao passar o número 5 como parâmetro:
 ><img src='./img_readme/desafio-11.png'>
 
 
+### 12 - Implemente a função *__isPalindrome()__*
+Esta função tem a finalidade de analisar o parâmetro e dizer se é um palíndromo.
+
+#### Detalhes da função
+- Esta função recebe um parâmetro para ser analisado. A função deve retornar `true` caso o parâmetro seja um palíndromo ou `false` caso não seja um palíndromo.
+
+#### O que será validado
+- Será validado que a função é capaz de identifcar palíndromos.
+
+
 ---
 ---
 ---
