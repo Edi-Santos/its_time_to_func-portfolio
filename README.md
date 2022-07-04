@@ -190,7 +190,7 @@ Esta função tem a finalidade de fazer conversão de medidas de temperatura (_C
 
 >*__Obs__*: Estas fórmulas foram desenvolvidas por mim. Certamente existem outras fórmulas que você pode encontrar na internet para a conversão dessas medidas.
 
-#### O que sera validado
+#### O que será validado
 - Será validado que é possível fazer todas as conversões;
 - Será validado que a função retorna o texto: `Dados incorrentos.` caso um parâmetro não seja informado, tenha algum erro de digitação ou alguma palavra errada.
 
@@ -201,7 +201,7 @@ Esta função tem a finalidade de preencher um array contando de 1 à 10.
 #### Detalhes da função
 - Esta é uma função simples que não recebe parâmetros.
 
-#### O que sera validado
+#### O que será validado
 - Será validado que a função retorna um array com elementos de 1 à 10.
 
 
@@ -211,7 +211,7 @@ Esta função tem a finalidade de contar a quantidade de letras que existem numa
 #### Detalhes da função
 - Esta função recebe um parâmetro que é uma frase completa (uma _STRING_).
 
-#### O que sera validado
+#### O que será validado
 - Será validado que a função retorna o texto: `A frase tem ... letras.`. Os 3 pontos precisam ser substituído por números dinâmicos contento a quantidade de letras presentes na frase.
 
 
