@@ -30,6 +30,7 @@ Fique a vontade para pegar os projetos e desenvolver à sua maneira, publicar no
         - [8 - Implemente a Função alternativeCalculator()](#8---implemente-a-função-alternativecalculator)
         - [9 - Implemente a Função asteriskSquare()](#9---implemente-a-função-asterisksquare)
         - [10 - Implemente a Função asteriskTriangle()](#10---implemente-a-função-asterisktriangle)
+        - [11 - Implemente a Função inverseAsteriskTriangle()](#11---implemente-a-função-inverseasterisktriangle)
    - [Considerações Finais](#considerações-finais)
 ---
 
@@ -271,6 +272,19 @@ Esta função tem a finalidade de imprimir, com o `console.log()`, um triângulo
 Retorno que a função deve ter ao passar o número 5 como parâmetro:
 
 ><img src='./img_readme/desafio-10.png'>
+
+
+### 11 - Implemente a Função *__inverseAsteriskTriangle()__*
+Esta função tem a finalidade de imprimir, com o `console.log()`, um triângulo de asteríscos, assim como o desafio anterior, porém, desta vez, um triângulo invertido.
+
+#### Detalhes da função
+- Esta função recebe um número como parâmetro. Baseado neste número, será impresso uma sequência de asteríscos e linhas. A primeira linha deve conter a quantidade de asteríscos correspondente ao parâmetro passado e a última linha deve conter 1 asterísco.
+
+>*__Obs.__*: *__PARA ESTA FUNÇÃO NÃO HÁ TESTES.__*
+
+Retorno que a função deve ter ao passar o número 5 como parâmetro:
+
+><img src='./img_readme/desafio-11.png'>
 
 
 ---
