@@ -254,6 +254,10 @@ Esta função tem a finalidade de imprimir, com o `console.log()`, um quadrado d
 
 >*__Obs.__*: *__PARA ESTA FUNÇÃO NÃO HÁ TESTES.__*
 
+Retorno que a função deve ter ao passar o número 5 como parâmetro:
+
+><img src='./img_readme/desafio-9.png'>
+
 
 ---
 ---
