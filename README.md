@@ -296,21 +296,13 @@ Esta função tem a finalidade de analisar o parâmetro e dizer se é um palínd
 #### O que será validado
 - Será validado que a função é capaz de identifcar palíndromos.
 
-
----
----
----
-
-
-
-
 ---
 
 ### Considerações Finais
 
-Parabéns por chegar até aqui e concluir este que é o primeiro projeto de muitos que ainda virão por aí!!!
+*__Parabéns por chegar até aqui e concluir o Projeto It's Time To Func!!!__*
 
-<img src="./img_readme/the-office-steve-carell_congratulations.gif">
+<img src='./img_readme/the-office-steve-carell_congratulations.gif'>
 
 ## Muito obrigado pelo seu voto de confiança!
 
