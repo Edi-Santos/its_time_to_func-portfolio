@@ -1,7 +1,6 @@
 # Bem Vindo ao Projeto It's Time To Func!!!
 
-Este é o segundo projeto *__PorConta__* com o propósito de ajudar aos iniciantes na programação a começarem a desenvolver um *__Portfólio__*. Também ajudará aos que
-desejam pegar novos projetos para praticar e se aperfeiçoarem, estendendo, consequentenmente, ainda mais o Portfólio. </br>
+Este é o segundo projeto da iniciativa *__PorConta__*. Iniciativa que tem o propósito de ajudar aos novos programadores a começarem a desenvolver um *__Portfólio__*. Também ajudará aos que desejam pegar novos projetos para praticar e se aperfeiçoarem, estendendo, consequentenmente, ainda mais o _Portfólio_. </br>
 Fique a vontade para pegar os projetos e desenvolver à sua maneira, publicar no LinkedIn, mostrar para rescrutadores e tudo mais.
 
 >*__Obs__*.: __LEIA ATENTAMENTE TODO O `README` ANTES DE COMEÇAR O DESENVOLVIMENTO DO PROJETO, POIS NELE ESTÃO CONTIDAS TODAS AS INFORMAÇÕES NECESSÁRIAS PARA O DESENVOLVIMENTO DO PROJETO.__
@@ -62,13 +61,13 @@ Você pode aprender mais sobre `NVM` <a href='https://github.com/nvm-sh/nvm'>aqu
 
 ### Sobre o Projeto
 
-Neste projeto você desenvolverá _funções_ em *__JavaScript__*. Com estas funções você praticará operadores lógicos (_AND - &&_, _OR - ||_ e _NOT - !_), estruturas condicionais (_if/else_, _switch/case_), estruturas de repetição (_for_, _for/in_, _for/of_) e lógica de programação.
+Neste projeto você desenvolverá _funções_ em *__JavaScript__*. Com estas funções você praticará operadores lógicos (_AND: &&_, _OR: ||_, _NOT: !_), estruturas condicionais (_if/else_, _switch/case_), estruturas de repetição (_for_, _for/in_, _for/of_) e lógica de programação.
 
 >__Obs.1__: Sinta-se à vontade para desenvolver o projeto bem à sua maneira, com suas características, mas vise sempre manter o código mais limpo e legível
 possível. *__Mantenha a organização de seus códigos.__*
 
 >__Obs.2__: Na raiz do projeto há um diretório (pasta) chamada *__base_answer__*. Nesta pasta está um exemplo do projeto pronto desenvolvido por mim. A intenção
-é que você possa ter um lugar para que possa tirar dúvidas. Busque não se debruçar em cima do projeto pronto, tente fazer do seu jeito, pesquise quando
+é que você tenha um lugar para que possa tirar dúvidas. Busque não se debruçar em cima do projeto pronto, tente fazer do seu jeito, pesquise quando
 surgir dúvidas, use este exemplo pronto apenas como último recurso.
 
 #### Tecnologias a Serem Utilizadas
@@ -123,7 +122,7 @@ Com este comando serão rodados todos os arquivos de teste.
 
 ><img src='./img_readme/npm_run_test.png'>
 
-Para rodar apenas um arquivo de teste digite o comando acima mais um trecho ou o nome completo do arquivo como no exemplo abaixo:
+Para rodar apenas um arquivo de testes digite o comando acima, o caminho para o arquivo de testes (_tests/_) e mais um trecho ou o nome completo do arquivo como no exemplo abaixo:
 ```
 npm run test tests/others
 ```
@@ -162,7 +161,7 @@ Esta função tem a finalidade de, com base em uma nota de 0 a 10, dizer se é s
 - Nota de reprovação: 0 à 4,9; Recuperação: 5 à 7; Aprovação: 7,1 à 10.
 
 #### O que será validado
-- Será valiado que função retorna o valor esperado de acordo com o parâmetro passado
+- Será valiado que função retorna o valor esperado de acordo com o parâmetro passado;
 - Será validado que a função retorna o texto `Nota inválida.` caso seja passado algum valor não esperado pela função.
 
 
